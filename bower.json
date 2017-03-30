@@ -1,0 +1,21 @@
+{
+  "name": "movie_Web",
+  "homepage": "https://github.com/Turne/Microblog",
+  "authors": [
+    "Turne"
+  ],
+  "description": "这里主要是记录bootstrap的版本",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

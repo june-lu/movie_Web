@@ -1,0 +1,16 @@
+//布局文件
+//include：用来引用外部jade文件
+//block：标识当引用layout是显示的部分
+doctype
+html
+    head
+        meta(charset = "utf-8")
+        title #{title}
+        //该页面的样式写在名称为head的区块
+        include ./includes/head
+    body
+        //该页面的标题
+        include ./includes/header
+        //该页面的主要内容
+        block content
+        //-h1 #{title}
